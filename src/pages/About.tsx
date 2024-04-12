@@ -123,7 +123,7 @@ const About = (): JSX.Element => {
     <AboutContainer>
       <Nav>
         <HeaderLinkContainer>
-          <a href="https://github.com/lissy93/web-check"><Button>View on GitHub</Button></a>
+          <a href="https://github.com/tucommenceapousser/web-check-trkn"><Button>View on GitHub</Button></a>
         </HeaderLinkContainer>
       </Nav>
 
@@ -155,10 +155,10 @@ const About = (): JSX.Element => {
         <hr />
         <p>
           Web-Check is developed and maintained by <a href="https://aliciasykes.com">Alicia Sykes</a>.
-          It's licensed under the <a href="https://github.com/Lissy93/web-check/blob/master/LICENSE">MIT license</a>,
+          It's licensed under the <a href="https://github.com/tucommenceapousser/web-check-trkn/blob/master/LICENSE">MIT license</a>,
           and is completely free to use, modify and distribute in both personal and commercial settings.<br />
-          Source code and self-hosting docs are available on <a href="https://github.com/lissy93/web-check">GitHub</a>.
-          If you've found this service useful, consider <a href="https://github.com/sponsors/Lissy93">sponsoring me</a> from $1/month,
+          Source code and self-hosting docs are available on <a href="https://github.com/tucommenceapousser/web-check-trkn">GitHub</a>.
+          If you've found this service useful, consider <a href="https://github.com/sponsors/tucommenceapousser">sponsoring me</a> from $1/month,
           to help with the ongoing hosting and development costs.
         </p>
       </Section>
@@ -216,13 +216,13 @@ const About = (): JSX.Element => {
         <p>Web-Check is designed to be easily self-hosted.</p>
         <Heading as="h3" size="small" color={colors.primary}>Option #1 - Netlify</Heading>
         <p>Click the button below to deploy to Netlify</p>
-        <a href="https://app.netlify.com/start/deploy?repository=https://github.com/lissy93/web-check">
+        <a href="https://app.netlify.com/start/deploy?repository=https://github.com/tucommenceapousser/web-check-trkn">
           <img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />
         </a>
 
         <Heading as="h3" size="small" color={colors.primary}>Option #2 - Vercel</Heading>
         <p>Click the button below to deploy to Vercel</p>
-        <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flissy93%2Fweb-check&project-name=web-check&repository-name=web-check-fork&demo-title=Web-Check%20Demo&demo-description=Check%20out%20web-check.xyz%20to%20see%20a%20live%20demo%20of%20this%20application%20running.&demo-url=https%3A%2F%2Fweb-check.xyz&demo-image=https%3A%2F%2Fraw.githubusercontent.com%2FLissy93%2Fweb-check%2Fmaster%2F.github%2Fscreenshots%2Fweb-check-screenshot10.png">
+        <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftucommenceapousser%2Fweb-check-trkn&project-name=web-check&repository-name=web-check-fork&demo-title=Web-Check%20Demo&demo-description=Check%20out%20web-check.xyz%20to%20see%20a%20live%20demo%20of%20this%20application%20running.&demo-url=https%3A%2F%2Fweb-check.xyz&demo-image=https%3A%2F%2Fraw.githubusercontent.com%2Ftucommenceapousser%2Fweb-check-trkn%2Fmaster%2F.github%2Fscreenshots%2Fweb-check-screenshot10.png">
           <img src="https://vercel.com/button" alt="Deploy with Vercel" />
         </a>
 
@@ -246,7 +246,7 @@ const About = (): JSX.Element => {
         <Heading as="h3" size="small" color={colors.primary}>Further Docs</Heading>
         <p>
           More detailed installation and setup instructions can be found in the
-          GitHub repository - <a href="https://github.com/lissy93/web-check#readme">github.com/lissy93/web-check</a>
+          GitHub repository - <a href="https://github.com/tucommenceapousser/web-check-trkn#readme">github.com/tucommenceapousser/web-check-trkn</a>
         </p>
 
         <Heading as="h3" size="small" color={colors.primary}>Configuring</Heading>
@@ -302,7 +302,7 @@ const About = (): JSX.Element => {
       <Section>
       <Heading as="h3" size="small" color={colors.primary}>License</Heading>
         <b>
-          <a href="https://github.com/lissy93/web-check">Web-Check</a> is distributed under the MIT license,
+          <a href="https://github.com/tucommenceapousser/web-check-trkn">Web-Check-trkn</a> is distributed under the MIT license,
           © <a href="https://aliciasykes.com">Alicia Sykes</a> { new Date().getFullYear()}
         </b>
         <br />
@@ -322,12 +322,3 @@ const About = (): JSX.Element => {
         <br />
         Neither your IP address, browser/OS/hardware info, nor any other data will ever be collected or logged.
         (You may verify this yourself, either by inspecting the source code or the using developer tools)
-        </p>
-      </Section>
-    </AboutContainer>
-    <Footer />
-    </div>
-  );
-}
-
-export default About;
