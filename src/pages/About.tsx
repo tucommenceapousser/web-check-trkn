@@ -322,3 +322,12 @@ const About = (): JSX.Element => {
         <br />
         Neither your IP address, browser/OS/hardware info, nor any other data will ever be collected or logged.
         (You may verify this yourself, either by inspecting the source code or the using developer tools)
+/p>
+      </Section>
+    </AboutContainer>
+    <Footer />
+    </div>
+  );
+}
+
+export default About;
