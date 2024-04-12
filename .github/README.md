@@ -1,33 +1,30 @@
-<h1 align="center">Web-Check</h1>
-
+<h1 align="center">
+  <img src="/src/logo.svg" width="96" alt="Web-Check Logo" /><br />
+  Web-Check
+</h1>
 
 <p align="center">
-<img src="https://i.ibb.co/q1gZN2p/web-check-logo.png" width="96" /><br />
-<b><i>Comprehensive, on-demand open source intelligence for any website</i></b>
-<br />
-<b>🌐 <a href="https://web-check.xyz/">web-check.xyz</a></b><br />
-
+  <b><i>Comprehensive, on-demand open source intelligence for any website</i></b><br />
+  <b>🌐 <a href="https://trkn-webcheck.netlify.app/">trkn-webcheck.netlify.app</a></b>
 </p>
 
----
 <p align="center">
+  <img src="https://i.ibb.co/8jrrcZ0/IMG-7210.jpg" width="300" alt="Terminal Trove Logo"><br>
   <sup>Kindly supported by:</sup><br>
-<a href="https://terminaltrove.com/?utm_campaign=github&utm_medium=referral&utm_content=web-check&utm_source=wcgh">
-  <img src="https://i.ibb.co/8jrrcZ0/IMG-7210.jpg" width="300" alt="Terminal Trove">
-  <br>
-  <strong>The $HOME of all things in the terminal.</strong>
-</a>
-<br>
-<a href="https://terminaltrove.com/newsletter?utm_campaign=github&utm_medium=referral&utm_content=web-check&utm_source=wcgh">
-  <sub>Find your next CLI / TUI tool and more at Terminal Trove,</sub>
-  <br>
-  <sup>Get updates on new tools on our newsletter.</sup>
-</a>
+  <a href="https://terminaltrove.com/?utm_campaign=github&utm_medium=referral&utm_content=web-check&utm_source=wcgh">
+    <strong>The $HOME of all things in the terminal.</strong>
+  </a><br>
+  <a href="https://terminaltrove.com/newsletter?utm_campaign=github&utm_medium=referral&utm_content=web-check&utm_source=wcgh">
+    <sub>Find your next CLI / TUI tool and more at Terminal Trove,</sub>
+    <br>
+    <sup>Get updates on new tools on our newsletter.</sup>
+  </a>
 </p>
 
 ---
 
-#### Contents
+<h2 align="center">Contents</h2>
+
 
 - **[About](#about)**
   - [Screenshot](#screenshot)
