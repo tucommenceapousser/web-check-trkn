@@ -22,6 +22,13 @@ section {
   width: auto;
   .inner-heading { display: none; }
 }
+.logo {
+    width: 200px; /* Largeur du logo */
+    height: auto; /* Hauteur ajustée automatiquement */
+    fill: #ff0000; /* Couleur de remplissage */
+    stroke: #000000; /* Couleur de la bordure */
+    stroke-width: 2; /* Largeur de la bordure */
+}
 `;
 
 const HeaderLinkContainer = styled.nav`
@@ -127,7 +134,7 @@ const About = (): JSX.Element => {
         </HeaderLinkContainer>
       </Nav>
 
-      <Heading as="h2" size="medium" color={colors.primary}>Intro</Heading>
+      <Heading as="h2" size="medium" color={colors.primary}>Intro</Heading><img className="logo" src="../logo.svg" alt="Mon Logo"></img>
       <Section>
         {about.map((para, index: number) => (
           <p key={index}>{para}</p>
@@ -236,8 +243,8 @@ const About = (): JSX.Element => {
 
         <Heading as="h3" size="small" color={colors.primary}>Option #4 - Manual</Heading>
         <pre>
-        git clone https://github.com/Lissy93/web-check.git<br />
-        cd web-check # Move into the project directory<br />
+        git clone https://github.com/tucommenceapousser/web-check-trkn.git<br />
+        cd web-check-trkn # Move into the project directory<br />
         yarn install # Install dependencies<br />
         yarn build # Build the app for production<br />
         yarn serve # Start the app (API and GUI)<br />
@@ -322,7 +329,7 @@ const About = (): JSX.Element => {
         <br />
         Neither your IP address, browser/OS/hardware info, nor any other data will ever be collected or logged.
         (You may verify this yourself, either by inspecting the source code or the using developer tools)
-</p>
+        </p>
       </Section>
     </AboutContainer>
     <Footer />
