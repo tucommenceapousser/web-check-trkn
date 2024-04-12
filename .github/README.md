@@ -5,7 +5,7 @@
 
 <p align="center">
   <b><i>Comprehensive, on-demand open source intelligence for any website</i></b><br />
-  <b>🌐 <a href="https://trkn-webcheck.netlify.app/">trkn-webcheck.netlify.app</a></b>
+  <b>🌐 <a href="https://master--trknweb-check.netlify.app">master--trknweb-check.netlify.app</a></b>
 </p>
 
 <p align="center">
@@ -78,6 +78,8 @@ Build & Deploys: [![Netlify Status](https://api.netlify.com/api/v1/badges/c43453
 [![Vercel Status](https://therealsujitk-vercel-badge.vercel.app/?app=web-check-ten)](https://vercel.com/as93/web-check/)
 [![🐳 Build + Publish Docker Image](https://github.com/Lissy93/web-check/actions/workflows/docker.yml/badge.svg)](https://github.com/Lissy93/web-check/actions/workflows/docker.yml)
 [![🚀 Deploy to AWS](https://github.com/Lissy93/web-check/actions/workflows/deploy-aws.yml/badge.svg)](https://github.com/Lissy93/web-check/actions/workflows/deploy-aws.yml)
+[![Déployer sur Glitch](https://img.shields.io/badge/Déployer%20sur-Glitch-yellow?logo=glitch)](https://glitch.com/edit/#!/import/github/tucommenceapousser/web-check-trkn)
+[![Déployer sur Deta](https://img.shields.io/badge/Déployer%20sur-Deta-purple?logo=deta)](https://go.deta.dev/deploy?repo=https://github.com/tucommenceapousser/web-check-trkn)
 <br />
 Repo Management & Miscellaneous: [![🪞 Mirror to Codeberg](https://github.com/Lissy93/web-check/actions/workflows/mirror.yml/badge.svg)](https://github.com/Lissy93/web-check/actions/workflows/mirror.yml)
 [![💓 Inserts Contributors & Sponsors](https://github.com/Lissy93/web-check/actions/workflows/credits.yml/badge.svg)](https://github.com/Lissy93/web-check/actions/workflows/credits.yml)
