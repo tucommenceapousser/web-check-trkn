@@ -44,3 +44,10 @@ svg.rsm-svg {
   --toastify-color-warning: #f6f000 !important;
   --toastify-color-error: #f80363 !important;
 }
+.logo {
+    width: 200px; /* Largeur du logo */
+    height: auto; /* Hauteur ajustée automatiquement */
+    fill: #ff0000; /* Couleur de remplissage */
+    stroke: #000000; /* Couleur de la bordure */
+    stroke-width: 2; /* Largeur de la bordure */
+}
