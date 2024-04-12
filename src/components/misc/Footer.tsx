@@ -41,18 +41,20 @@ const Link = styled.a`
 `;
 
 const Footer = (props: { isFixed?: boolean }): JSX.Element => {
-  const licenseUrl = 'https://github.com/lissy93/web-check/blob/master/LICENSE';
+  const licenseUrl = 'https://github.com/tucommenceapousser/web-check-trkn/blob/master/LICENSE';
   const authorUrl = 'https://aliciasykes.com';
-  const githubUrl = 'https://github.com/lissy93/web-check';
+  const modderUrl = 'https://web-check-trkn.replit.app';
+  const githubUrl = 'https://github.com/tucommenceapousser/web-check-trkn';
   return (
   <StyledFooter style={props.isFixed ? {position: 'fixed'} : {}}>
     <span>
-      View source at <Link href={githubUrl}>github.com/lissy93/web-check</Link>
+      View source at <Link href={githubUrl}>github.com/tucommenceapousser/web-check-trkn</Link>
     </span>
     <span>
       <Link href="/about">Web-Check</Link> is
       licensed under <Link href={licenseUrl}>MIT</Link> -
-      © <Link href={authorUrl}>Alicia Sykes</Link> 2023
+      © <Link href={authorUrl}>Alicia Sykes</Link> -
+      © <Link href={modderUrl}>TRHACKNON</Link>  2023
     </span>
   </StyledFooter>
   );
