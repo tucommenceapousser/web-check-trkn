@@ -24,6 +24,13 @@ const HomeContainer = styled.section`
   footer {
     z-index: 1;
   }
+  .logo {
+      width: 200px; /* Largeur du logo */
+      height: auto; /* Hauteur ajustée automatiquement */
+      fill: #ff0000; /* Couleur de remplissage */
+      stroke: #000000; /* Couleur de la bordure */
+      stroke-width: 2; /* Largeur de la bordure */
+  }
 `;
 
 const UserInputMain = styled.form`
@@ -199,7 +206,8 @@ const Home = (): JSX.Element => {
       <UserInputMain onSubmit={formSubmitEvent}>
         <Heading as="h1" size="xLarge" align="center" color={colors.primary}>
           <img width="64" src="/web-check.png" alt="Web Check Icon" />
-          Web Check
+          Web Check by trhacknon
+          <img className="logo" src="../logo.svg" alt="Mon Logo"></img>
         </Heading>
         <Input
           id="user-input"
